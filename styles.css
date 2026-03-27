@@ -26,7 +26,10 @@ header {
     display: flex;
     flex-direction: column;
     justify-self: start;
-    background-color: #764ba2;
+    background: linear-gradient(222deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(9, 9, 121, 1) 35%,
+            rgba(0, 212, 255, 1) 100%);
     color: white;
     margin: 4px;
     padding: 50px;
@@ -35,6 +38,8 @@ header {
 
 section {
     margin: 7px;
+
+
 }
 
 .emapas {
@@ -55,6 +60,26 @@ section {
     background-color: #764ba2;
     color: white;
     width: 96%;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background: #3498db;
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    background: #2980b9;
+    outline: none;
+    border: none;
+}
+
+button:active {
+    background: #1c5985;
+    outline: none;
+    border: none;
 }
 
 .icon {
@@ -89,7 +114,7 @@ section {
     justify-content: center;
 }
 
-.o {
+.or {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,9 +124,15 @@ section {
 
 section {
     background-color: white;
-    padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
+}
+
+.checkbox {
+    input[type="checkbox"]:checked+label {
+        color: #3498db;
+        font-weight: bold;
+    }
 }
