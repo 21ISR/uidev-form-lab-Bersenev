@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(91, 55, 190);
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+div {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(222deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(9, 9, 121, 1) 35%,
+            rgba(0, 212, 255, 1) 100%);
+    color: white;
+    margin: 4px;
+    padding: 50px 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+section {
+    margin: 7px;
+}
+
+.emapas {
+    height: 35px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.password {
+    display: flex;
+    flex-direction: wrap;
+    font-size: 18px;
+    height: 25px;
+    width: 50%;
+}
+
+.forgpas {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    justify-self: end;
+    color: #667eea;
+}
+
+.butt {
+    display: flex;
+    height: 45px;
+    background-color: #764ba2;
+    color: white;
+    width: 96%;
+    border-radius: 5px;
+    margin: 6px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+button {
+    display: flex;
+    background: #3498db;
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    display: flex;
+    background: #2980b9;
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+button:active {
+    display: flex;
+    background: #1c5985;
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    border-radius: 100%;
+    background-color: #f5f7fa;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #4a5568;
+    padding: 15px;
+}
+
+.reg {
+    display: flex;
+    justify-content: center;
+    color: #1932a1;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.section {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    input[type="checkbox"]:checked+label {
+        color: #3498db;
+        font-weight: bold;
+    }
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+input:disabled {
+    background: #f0f0f0;
+    color: #aaa;
+    cursor: not-allowed;
+}
