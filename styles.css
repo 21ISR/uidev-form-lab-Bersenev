@@ -72,6 +72,7 @@ section {
     margin: 6px;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s;
 }
 
 button {
