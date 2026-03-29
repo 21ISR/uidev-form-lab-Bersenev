@@ -8,6 +8,7 @@ body {
     background-color: rgb(91, 55, 190);
     font-family: 'Arial', sans-serif;
     min-height: 100vh;
+    margin: 0px;
     display: flex;
     justify-self: center;
     align-items: center;
@@ -37,41 +38,78 @@ header {
 }
 
 section {
-    margin: 7px;
+    margin: 10px;
 }
 
-.emapas {
+.Student {
+    color: white;
+    font-size: 20px;
+}
+
+.Studetn {
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.fullname {
+    radius: 5px;
+    padding: 5px;
     height: 35px;
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
+    padding-left: 0;
+    
 }
 
-.password {
-    display: flex;
-    flex-direction: wrap;
-    font-size: 18px;
-    height: 25px;
-    width: 50%;
+select.option {
+    width: 100%;
+    font-size: 17px;
+    background-color: #dbdde2;
+    background-color: #ffff;
+    padding: 5px;
+
 }
 
-.forgpas {
-    display: flex;
-    flex-direction: column;
-    font-size: 14px;
-    justify-self: end;
-    color: #667eea;
-}
-
-.butt {
-    display: flex;
-    height: 45px;
-    background-color: #764ba2;
+.log {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(#667eea, #764ba2);
+    border-radius: 10px;
     color: white;
-    width: 96%;
-    border-radius: 5px;
-    margin: 6px;
+
+}
+
+.iagr {
+    font-size: 14px;
+}
+
+.kac {
+    display: flex;
     justify-content: center;
-    align-items: center;
+
+}
+
+.login {
+    color: #1932a1;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+input:disabled {
+    background: #f0f0f0;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.checkbox {
+    input[type="checkbox"]:checked+label {
+        color: #3498db;
+    }
 }
 
 button {
@@ -101,69 +139,21 @@ button:active {
     align-items: center;
 }
 
-.icon {
-    display: flex;
-    flex-direction: row;
-    border-radius: 100%;
-    background-color: #f5f7fa;
-    height: 50px;
-    width: 50px;
-    align-items: center;
-    justify-content: center;
-}
-
-.account {
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    color: #4a5568;
-    padding: 15px;
-}
-
-.reg {
-    display: flex;
-    justify-content: center;
-    color: #1932a1;
-    font-size: 14px;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-}
-
-.or {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 15px 0;
-}
-
-.section {
-    background-color: white;
+.option {
+    position: relative;
+    display: block;
     margin-bottom: 20px;
     border-radius: 5px;
+}
+
+.butt {
+    display: flex;
+    height: 45px;
+    background-color: #764ba2;
+    color: white;
+    width: 96%;
+    border-radius: 5px;
+    margin: 6px;
     justify-content: center;
     align-items: center;
-}
-
-.checkbox {
-    input[type="checkbox"]:checked+label {
-        color: #3498db;
-        font-weight: bold;
-    }
-}
-
-input:focus {
-    border-color: #3498db;
-    outline: none;
-}
-
-input:disabled {
-    background: #f0f0f0;
-    color: #aaa;
-    cursor: not-allowed;
 }

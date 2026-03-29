@@ -4,40 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zxc Регистрация</title>
+    <title>Регистрация</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
 </head>
 
 <body>
     <div>
         <header>
+            <form action="/api/register" method="post" class="start"></form>
             <h1>Student Login</h1>
             <p>Access your Student account</p>
         </header>
         <section>
-            <h2>Email or Student ID</h2>
+            <h2 class="emapas">Email or Student ID</h2>
             <input type="text" placeholder="Enter your Email or Student ID" class="emapas">
         </section>
         <section>
-            <h2>Password</h2>
+            <h2 class="password">Password</h2>
             <input type="text" placeholder="Enter your password" class="emapas">
         </section>
-        <section class="checkbox">
-            <input type="checkbox" id="check">
-            <label for="check">Remamber me</label>
-            <a href="" class="forgpas">Forgot password?</a>
+        <section>
+            <section class="checkbox">
+                <input type="checkbox" id="check">
+                <label for="check">Remamber me</label>
+                <a href="" class="forgpas">Forgot password?</a>
+            </section>
             <button class="butt">Log in</button>
         </section>
-    </div>
-    <section class="div">
-        <div>
+        <span>
             <p class="or">Or</p>
-        </div>
-        <div class="container">
+        </span>
+        <section class="container">
             <div class="icon">
                 <button class="icon"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
                         viewBox="0 0 488 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg">
@@ -62,13 +60,13 @@
                         </path>
                     </svg></button>
             </div>
-        </div>
-        </div>
-        <div>
-            <h3 class="dont">Dont have an account? 
-                <a href="" class="reg">Register</a>
+        </section>
+        <section>
+            <h3 class="account">Don't have an account?
+                <a href="Register.html" class="reg">Register</a>
             </h3>
-        </div>
+        </section>
+    </div>
 </body>
 
 </html>
